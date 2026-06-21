@@ -6,7 +6,7 @@ jobs:
   first-workflow:
     runs-on: ubuntu-latest
 
-    step:
+    steps:
       - name: First step
         run: |
           echo "Hello, world"
