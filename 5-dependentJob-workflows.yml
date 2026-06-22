@@ -9,7 +9,7 @@ jobs:
     steps:
       - name: First step
         run: |
-          echo "Hello, First workflow"
+          echo "Hello, First dependent workflow"
 
   second-workflow-job:
     runs-on: ubuntu-latest
@@ -17,7 +17,7 @@ jobs:
     steps:
       - name: Second step
         run: |
-          echo "Hello, Second workflow"
+          echo "Hello, Second dependent workflow"
 
   Third-workflow-job:
     runs-on: ubuntu-latest
@@ -25,4 +25,4 @@ jobs:
     steps:
       - name: Third step
         run: |
-          echo "Hello, Third workflow"
+          echo "Hello, Third dependent workflow"
