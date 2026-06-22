@@ -1,14 +1,14 @@
-name: First workflow
+name: Manual workflow
 
 on:
   workflow_dispatch:
 
 jobs:
-  first-workflow:
+  manual-workflow:
     runs-on: ubuntu-latest
 
     steps:
-      - name: First step
+      - name: First manual step
         run: |
           echo "Hello, world"
           echo "Hello Again"

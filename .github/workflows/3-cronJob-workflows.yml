@@ -1,0 +1,14 @@
+name: CRON workflow
+
+on:
+  schedule:
+    -cron: '*/5 * * * *'
+
+jobs:
+  Cron-workflow:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: First cron step
+        run: |
+          echo "Hello, cron jobs"
