@@ -11,4 +11,4 @@ jobs:
     steps:
       - name: First cron step
         run: |
-          echo "Hello, cron jobs"
+          echo "Hello, cron jobs test"
